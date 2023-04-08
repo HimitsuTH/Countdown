@@ -1,0 +1,29 @@
+body {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  min-height: 100vh;
+  background: url("/assets/images/bg-stars.svg") no-repeat;
+  background-color: $very-dark-blue;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex: 1;
+}
+
+footer {
+  height: 30vh;
+  width: 100%;
+  background: url("/assets/images/pattern-hills.svg") no-repeat 80% 100% / auto
+    100%;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

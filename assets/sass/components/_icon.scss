@@ -1,0 +1,13 @@
+ul {
+  display: flex;
+  gap: 0 2rem;
+  .icon {
+    min-width: 30px;
+    min-height: 30px;
+    filter:  blur(5px);
+    transition: all 0.5s;
+    &:hover {
+        filter:  blur(0);
+    }
+  }
+}

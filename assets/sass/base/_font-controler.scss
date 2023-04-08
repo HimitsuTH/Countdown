@@ -1,0 +1,36 @@
+@import url("https://fonts.google.com/specimen/Red+Hat+Text");
+
+$font-red-hat: "Red Hat Text", Arial, Helvetica, sans-serif;
+
+html {
+  font-family: $font-red-hat;
+}
+
+p {
+  color: $grayish-blue;
+  font-size: 14px;
+}
+
+main {
+  h1 {
+    font-size: 24px;
+    text-align: center;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 700;
+    margin-bottom: 2rem;
+    letter-spacing: 0.5rem;
+  }
+}
+
+.time {
+  color: $soft-red;
+  font-weight: 600;
+}
+
+.date {
+  margin-top: 1rem;
+  text-transform: uppercase;
+  letter-spacing: 0.3rem;
+}
+
